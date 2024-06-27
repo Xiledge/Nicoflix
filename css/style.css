@@ -1,0 +1,67 @@
+.bck {
+    background-color: black;
+}
+.profile-picture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap:30px;
+}
+.profile-picture1{
+    height: 200px;
+    width : 200px;
+
+}
+
+
+.profile-picture2{
+    height: 200px;
+    width:  200px;
+}
+.profile-picture3{
+    height: 200px;
+    width : 200px; 
+}
+.profile-picture4{
+    height : 200px;
+    width : 200px;
+}
+
+.logo{
+    height : 100px;
+    width : 100px;
+}
+
+.question{
+    color: white; 
+    font-family: sans-serif;
+    font-size: 40px;
+    display: flex; justify-content: space-around
+}
+
+.profils{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.prénoms{
+    color:grey;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap: 172px;
+}

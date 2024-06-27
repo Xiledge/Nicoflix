@@ -1,0 +1,170 @@
+
+h1  {color:rgba(255, 47, 0, 0.851); font-family:impact; font-size: 200%;}
+h2  { color:rgb(234, 240, 241); font-family: impact; font-size: 700%;}
+tr,ul  {color: rgb(15, 14, 14);font-family: arial; font-size:200%}
+img { width: 180px; height: 150px;}
+.maclasse {text-align: center;}
+.container {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+:root{
+    --button-width : 100px;
+}
+
+body {
+    background-image: url("../assets/netflix_image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+    
+header{
+    width: 100vw;
+}
+nav{
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}  
+
+main{
+    height: inherit;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-boutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/* The container must be positioned relative: */
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: rgba(255, 68, 30, 0.787);
+  }
+  
+  /* Style the arrow inside the select element: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* Point the arrow upwards when the select box is open (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+  
+  /* style the items (options), including the selected item: */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  
+  /* Style items (options): */
+  .select-items {
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
+  
+  /* Hide the items when the select box is closed: */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .intro{
+    width: 60%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .intro .title{
+    color: #fff;
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+  }
+  .subtitle{
+    color: #fff;
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+  }
+  .montitle{
+    color: #fff;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+
+  }
+ 
+  .connexion-bouton, .bouton-commencer {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 3px;
+    background-color: rgba(255, 68, 30, 0.787);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    min-width: var(--button-width);
+  }
+  
+  .connexion-bouton:hover, .bouton-commencer:hover {
+    background-color: rgba(255, 0, 0, 1);
+  }
+  
+  .bouton-commencer{
+    background-color: rgba(255, 0, 0, 1);
+  }
+  .email{ 
+
+  }
